@@ -13,13 +13,14 @@ consumer microservice listens for messages on the queue, as soon as it is availa
 producer runs on port 8120 and consumer on 8121.
 
 use endpoint - http://localhost:8120/ to post messages to the queue.
-e.g. JSON payload for message:
-
-{
+<br>
+JSON payload for message:
+<br>
+`{
 	"from": "XXXXX",
 	"to": "YYYYY",
 	"text": "Sample message"
-}
-
+}`
+<br>
 display all the messages using the end-point - http://localhost:8121/all/
 
