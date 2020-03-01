@@ -7,10 +7,10 @@ Required softwares:
 1. Apache ActiveMQ Broker
 2. MongoDB
 
-producer microservice will send a messag to a JMS Queue.
-consumer microservice listens for messages on the queue, as soon as it is available, receives it, and, stores its contents in a mongodb database.
+Producer microservice will send a messag to a JMS Queue.
+Consumer microservice listens for messages on the queue, as soon as it is available, receives it, and, stores its contents in a mongodb database.
 
-producer runs on port 8120 and consumer on 8121.
+Producer runs on port 8120 and consumer on 8121.
 
 use endpoint - http://localhost:8120/ to post messages to the queue.
 <br>
